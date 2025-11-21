@@ -1,0 +1,15 @@
+employee.payroll.system.Allowance$1
+employee.payroll.system.Allowance
+employee.payroll.system.Allowance$14
+employee.payroll.system.Allowance$13
+employee.payroll.system.Allowance$10
+employee.payroll.system.Allowance$12
+employee.payroll.system.Allowance$11
+employee.payroll.system.Allowance$9
+employee.payroll.system.Allowance$8
+employee.payroll.system.Allowance$7
+employee.payroll.system.Allowance$6
+employee.payroll.system.Allowance$5
+employee.payroll.system.Allowance$4
+employee.payroll.system.Allowance$3
+employee.payroll.system.Allowance$2
