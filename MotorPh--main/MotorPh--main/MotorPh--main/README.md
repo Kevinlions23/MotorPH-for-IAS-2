@@ -1,19 +1,76 @@
-In the realm of modern business operations, efficient management of employees is crucial for organizational success. To streamline this process, we introduce an Employee Management System built using Apache NetBeans platform, featuring a Graphical User Interface (GUI) designed with JFrame, and employing SQLite database for data management. This system is structured using Object-Oriented Programming (OOP) principles, utilizing various techniques to ensure scalability, modularity, and maintainability.
+MotorPh Employee Management System – Installation Guide
+Requirements
 
-Object-Oriented Design Principles Implemented:
-Encapsulation:
+MotorPh Employee Management System (downloaded from GitHub).
 
-Encapsulating data within classes to restrict direct access and ensure data integrity.
-Example: Employee class encapsulates attributes such as name, age, salary, etc., providing methods to manipulate data securely.
-Inheritance:
+DB Browser for SQLite – version 3.12.2 (64-bit).
 
-Utilizing inheritance to establish relationships between classes, promoting code reuse and hierarchical organization.
-Example: Employee class may serve as a base class, with subclasses like Manager, Engineer, etc., inheriting common attributes and behaviors.
-Polymorphism:
+Download DB Browser for SQLite
 
-Leveraging polymorphism to enable objects of different classes to be treated interchangeably based on a shared interface.
-Example: Implementing an abstract method calculateSalary() in the Employee class, overridden by subclasses to calculate salaries based on specific roles.
-Abstraction:
+Java IDE – NetBeans (recommended), IntelliJ, or Eclipse.
 
-Employing abstraction to define essential features while hiding implementation details, facilitating easier understanding and maintenance.
-Example: Using abstract classes or interfaces to define common behaviors and attributes shared among different types of employees.
+Step 1: Download and Extract the Project
+
+Go to the GitHub repository for MotorPh Employee Management System.
+
+Click Code → Download ZIP.
+
+Extract the ZIP file to a folder, e.g., C:\MotorPH-for-IAS-2-main.
+
+Step 2: Install DB Browser for SQLite
+
+Open the installer DB.Browser.for.SQLite-3.12.2-win64.msi.
+
+Follow the installation prompts to complete setup.
+
+Step 3: Open and Edit the Database (Optional)
+
+Launch DB Browser for SQLite.
+
+Click File → Open Database.
+
+Navigate to:
+
+MotorPH-for-IAS-2-main\Employee Payroll System\Database\
+
+
+Select mydata.sqlite and click Open.
+
+You can now view or edit records.
+
+Tip: Always back up mydata.sqlite before editing.
+
+Step 4: Default Users
+
+The system comes with pre-configured users:
+
+Role	Username	Password
+Admin	Admin	pass
+Employee	Juan	123
+
+Use these credentials to log in immediately after running the program.
+
+You can add or edit users in the database via DB Browser if needed.
+
+Step 5: Open the Project in Your IDE
+
+Launch your Java IDE (NetBeans recommended).
+
+Click File → Open Project (or Open Existing Project).
+
+Navigate to:
+
+MotorPH-for-IAS-2-main\Employee Payroll System\
+
+
+Select the folder and open it as a project.
+
+Step 6: Run the Program
+
+Once the project is open in your IDE, click Run (or press F6 in NetBeans).
+
+The program will launch and connect to the mydata.sqlite database automatically.
+
+Log in using the default credentials above.
+
+You can now use the Employee Management System to manage employees and payroll.
